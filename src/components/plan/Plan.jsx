@@ -7,8 +7,8 @@ export default function Plan() {
         <div className="flex flex-col gap-8 items-center">
           <p className=" font-bold text-4xl">Choose Your Plan</p>
           <p className="text-slate-700">
-            Let's choose the package that is best for you and explore it happily
-            and cheerfully.
+            Let is choose the package that is best for you and explore it
+            happily and cheerfully.
           </p>
         </div>
 
