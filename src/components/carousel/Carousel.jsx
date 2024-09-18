@@ -1,5 +1,3 @@
-import { CarouselCard } from "./Card";
-
 export default function Carousel() {
   return (
     <div className="container ">
@@ -13,7 +11,6 @@ export default function Carousel() {
             pleasure when using this crazy feature.
           </p>
         </div>
-        <CarouselCard />
       </div>
     </div>
   );

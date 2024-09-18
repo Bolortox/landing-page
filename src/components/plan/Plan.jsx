@@ -42,7 +42,7 @@ export default function Plan() {
 
             <div className="text-slate-800 flex flex-col items-center gap-4 ">
               <p className="font-bold text-xl">Free</p>
-              <div className="btn btn-ghost btn-outline rounded-3xl w-[177px] h-[45px] btn-error">
+              <div className="btn btn-outline rounded-3xl w-[150px] font-extrabold hover:bg-red-500 hover:text-white hover:border-red-500 border-red-500 text-red-500 ">
                 Select
               </div>
             </div>
@@ -83,11 +83,13 @@ export default function Plan() {
               <p className="text-xl">
                 <b>$9 </b>/ mo
               </p>
-              <div className="btn btn-ghost btn-outline rounded-3xl w-[177px] h-[45px] btn-error">
+              <div className="btn btn-outline rounded-3xl w-[150px] font-extrabold hover:bg-red-500 hover:text-white hover:border-red-500 border-red-500 text-red-500 ">
                 Select
               </div>
             </div>
           </div>
+
+          {/* another box */}
 
           <div className="border-2 border-slate-200 w-[330px] h-[760px] rounded-[10px] flex flex-col items-center gap-8 pt-20 bg-white justify-around">
             <img src="./Free.png" alt="" width={150} height={165} />
@@ -127,7 +129,7 @@ export default function Plan() {
               <p className="text-xl">
                 <b>$12 </b>/ mo
               </p>
-              <div className="btn btn-ghost btn-outline rounded-3xl w-[177px] h-[45px] btn-error">
+              <div className="btn btn-outline rounded-3xl w-[150px] font-extrabold hover:bg-red-500 hover:text-white hover:border-red-500 border-red-500 text-red-500 ">
                 Select
               </div>
             </div>

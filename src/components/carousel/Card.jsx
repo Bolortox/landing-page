@@ -1,4 +1,4 @@
-export const CarouselCard = async () => {
+export const CarouselCard = () => {
   return (
     <div>
       <div className="w-[400px] h-[230px] rounded-[10px] border-2 hover:border-red-500 hover:shadow-2xl flex flex-col p-5 gap-3 ">
