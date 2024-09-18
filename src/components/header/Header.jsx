@@ -13,7 +13,7 @@ export default function Header() {
       </div>
       <div className="flex items-center gap-7 ">
         <p className="text-black font-bold">Sign in</p>
-        <div className="btn btn-outline rounded-3xl w-[150px] font-extrabold btn-ghost border-red-500 text-red-500">
+        <div className="btn btn-outline rounded-3xl w-[150px] font-extrabold hover:bg-red-500 hover:text-white hover:border-red-500 border-red-500 text-red-500 ">
           Sign up
         </div>
       </div>

@@ -1,5 +1,7 @@
 import Benefit from "@/components/benefit/Benefit";
 import Card from "@/components/card/Card";
+import Carousel from "@/components/carousel/Carousel";
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Intro from "@/components/intro/Intro";
 import Location from "@/components/location/Location";
@@ -14,6 +16,8 @@ export default function Home() {
       <Benefit />
       <Plan />
       <Location />
+      <Carousel />
+      <Footer />
     </div>
   );
 }
