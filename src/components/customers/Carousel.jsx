@@ -5,7 +5,6 @@ import { CarouselCard } from "./CarouselCard";
 export default async function Carousel() {
   const data = await fetch("https://randomuser.me/api/?results=100");
   const users = await data.json();
-  console.log("users", users);
 
   return (
     <div className="max-w-[1216px] w-full h-full m-auto">
