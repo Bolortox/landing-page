@@ -7,10 +7,10 @@ export default function Benefit() {
         <div className="grid grid-cols-2 gap-28 items-end">
           <img src="./Benefit.png" alt="" />
           <div className="flex flex-col gap-6">
-            <p className=" font-bold text-4xl">
+            <p className=" font-bold text-4xl w-[380px]">
               We Provide Many Features You Can Use
             </p>
-            <p className="text-slate-700">
+            <p className="text-slate-700 w-[420px]">
               You can explore the features that we provide with fun and have
               their own functions each feature.
             </p>

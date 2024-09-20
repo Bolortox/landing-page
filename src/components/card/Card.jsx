@@ -7,7 +7,7 @@ export default function Card() {
     <div className="max-w-[1216px] w-full h-full m-auto">
       <div className="flex justify-center ">
         <div className="container max-w-[1140px]">
-          <div className="max-w-6xl h-[200px] shadow-2xl rounded-md flex gap-[113px] justify-center  ">
+          <div className="max-w-6xl h-[200px] shadow-xl rounded-md flex gap-[113px] justify-center  ">
             <div className="flex gap-3 text-2xl items-center justify-center">
               <UserIcon />
               <div className="flex flex-col items-start justify-start">

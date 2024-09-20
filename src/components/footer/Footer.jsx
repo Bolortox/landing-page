@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FacebookIcon } from "../../../public/svg/FacebookIcon";
 import { InstaIcon } from "../../../public/svg/InstagramIcon";
 import { TwitterIcon } from "../../../public/svg/TwitterIcon";
@@ -23,7 +24,9 @@ export default function Footer() {
 
           <div className="flex pt-16 gap-[230px]">
             <div className="flex flex-col gap-6">
-              <img src="./Logo.png" width={150} height={36} alt="" />
+              <Link href="/">
+                <img src="./Logo.png" width={150} height={36} alt="" />
+              </Link>
 
               <p className="w-[340px] text-slate-600 ">
                 <b>LaslesVPN</b> is a private virtual network that has unique

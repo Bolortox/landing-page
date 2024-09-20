@@ -8,10 +8,12 @@ export default function Plan() {
           <div className="flex flex-col items-center py-20">
             <div className="flex flex-col gap-8 items-center">
               <p className=" font-bold text-4xl">Choose Your Plan</p>
-              <p className="text-slate-700">
-                Let is choose the package that is best for you and explore it
-                happily and cheerfully.
-              </p>
+              <div className="text-slate-700 w-[555px] text-center">
+                <p>
+                  Let is choose the package that is best for you and explore it
+                  happily and cheerfully.
+                </p>
+              </div>
             </div>
 
             <div className="flex gap-20 pt-8 ">
@@ -44,7 +46,7 @@ export default function Plan() {
 
                 <div className="text-slate-800 flex flex-col items-center gap-4 ">
                   <p className="font-bold text-xl">Free</p>
-                  <div className="btn btn-outline rounded-3xl w-[150px] font-extrabold hover:bg-red-500 hover:text-white hover:border-red-500 border-red-500 text-red-500 ">
+                  <div className="btn border-2 btn-outline rounded-3xl w-[150px] font-extrabold hover:bg-red-500 hover:text-white hover:border-red-500 border-red-500 text-red-500 ">
                     Select
                   </div>
                 </div>
@@ -81,11 +83,11 @@ export default function Plan() {
                   </div>
                 </div>
 
-                <div className="text-slate-800 flex flex-col items-center gap-4 ">
+                <div className="text-slate-800 flex flex-col items-center gap-4 pb-2">
                   <p className="text-xl">
                     <b>$9 </b>/ mo
                   </p>
-                  <div className="btn btn-outline rounded-3xl w-[150px] font-extrabold hover:bg-red-500 hover:text-white hover:border-red-500 border-red-500 text-red-500 ">
+                  <div className="btn border-2 btn-outline rounded-3xl w-[150px] font-extrabold hover:bg-red-500 hover:text-white hover:border-red-500 border-red-500 text-red-500 ">
                     Select
                   </div>
                 </div>
@@ -127,11 +129,11 @@ export default function Plan() {
                   </div>
                 </div>
 
-                <div className="text-slate-800 flex flex-col items-center gap-4 ">
+                <div className="text-slate-800 flex flex-col items-center gap-4 pb-3">
                   <p className="text-xl">
                     <b>$12 </b>/ mo
                   </p>
-                  <div className="btn btn-outline rounded-3xl w-[150px] font-extrabold hover:bg-red-500 hover:text-white hover:border-red-500 border-red-500 text-red-500 ">
+                  <div className="btn border-2 btn-outline rounded-3xl w-[150px] font-extrabold hover:bg-red-500 hover:text-white hover:border-red-500 border-red-500 text-red-500 ">
                     Select
                   </div>
                 </div>
