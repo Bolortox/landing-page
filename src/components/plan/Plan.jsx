@@ -16,7 +16,7 @@ export default function Plan() {
 
             <div className="flex gap-20 pt-8 ">
               <div
-                className="border-2 border-slate-200 w-[330px] h-[760px] rounded-[10px] flex flex-col items-center gap-8 pt-20 bg-white justify-around
+                className="border-2 hover:border-red-500 border-slate-200 w-[330px] h-[760px] rounded-[10px] flex flex-col items-center gap-8 pt-20 bg-white justify-around
           "
               >
                 <img src="./Free.png" alt="" width={150} height={165} />
@@ -52,7 +52,7 @@ export default function Plan() {
 
               {/* another box */}
 
-              <div className="border-2 border-slate-200 w-[330px] h-[760px] rounded-[10px] flex flex-col items-center gap-8 pt-20 bg-white justify-around">
+              <div className="border-2  hover:border-red-500 border-slate-200 w-[330px] h-[760px] rounded-[10px] flex flex-col items-center gap-8 pt-20 bg-white justify-around">
                 <img src="./Free.png" alt="" width={150} height={165} />
                 <p className="font-bold text-lg">Standard Plan</p>
                 <div className="flex flex-col items-start gap-5">
@@ -93,7 +93,7 @@ export default function Plan() {
 
               {/* another box */}
 
-              <div className="border-2 border-slate-200 w-[330px] h-[760px] rounded-[10px] flex flex-col items-center gap-8 pt-20 bg-white justify-around">
+              <div className="border-2  hover:border-red-500 border-slate-200 w-[330px] h-[760px] rounded-[10px] flex flex-col items-center gap-8 pt-20 bg-white justify-around">
                 <img src="./Free.png" alt="" width={150} height={165} />
                 <p className="font-bold text-lg">Premium Plan</p>
                 <div className="flex flex-col items-start gap-5">
