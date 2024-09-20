@@ -1,6 +1,6 @@
 import { MapIcon } from "../../../public/svg/MapIcon";
 import { ServerIcon } from "../../../public/svg/ServerIcon";
-import { UserIcon } from "../../../public/svg/userIcon";
+import { UserIcon } from "../../../public/svg/UserIcon";
 
 export default function Card() {
   return (
