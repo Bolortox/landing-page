@@ -1,5 +1,3 @@
-import { Arrow, ArrowLeft } from "../../../public/svg/Arrow";
-import { ArrowRight } from "../../../public/svg/ArrowRight";
 import { CarouselCard } from "./CarouselCard";
 
 export default async function Carousel() {
@@ -28,15 +26,6 @@ export default async function Carousel() {
                 </div>
               ))}
             </div>
-          </div>
-
-          <div className="flex  gap-6 pt-5 ">
-            <button className="w-[60px] h-[60px] border-2 border-red-500 rounded-full flex justify-center items-center">
-              <ArrowLeft />
-            </button>
-            <button className="w-[60px] h-[60px] border-2 bg-red-500 border-red-500 rounded-full flex justify-center items-center">
-              <ArrowRight />
-            </button>
           </div>
         </div>
       </div>
